@@ -1,0 +1,273 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+@font-face {
+  font-family:"Nova";
+  src: url("nova.eot");
+}
+@font-face {
+  font-family:"nova";
+  src: url("nova.ttf");
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'nova', sans-serif;
+  font-size: 42px;
+}
+body .button{
+  background-color: #3499E0;
+  color: #fff;
+  font-size: 17px;
+  height: 38px;
+  line-height: 38px;
+  margin: 0 5px 10px 0;
+  padding: 0px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.main-container {
+  color: #333;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.top-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-container img{
+  width: 180px;
+  height: 91.5px;
+  float: left;
+}
+
+.title-container {
+  text-align: center;
+  font-size: 35px;
+  width: 60%;
+  margin: 15px auto;
+}
+
+.signup-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0px auto;
+  position: relative;
+  background: white;
+}
+
+.no-spam {
+  text-align: center;
+  color: darkgrey;
+}
+
+/* Mailchimp */
+#mc_embed_signup{
+  clear:left;
+  width: 100%;
+  font:14px Helvetica,Arial,sans-serif;
+}
+
+#mc_embed_signup form{
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 4px 0 !important;
+}
+
+#mc_embed_signup form input{
+  margin: 0px auto;
+  display: block;
+  font-size: 18px;
+  padding: 14px;
+}
+
+#mc_embed_signup input.email {
+  margin: 12px auto !important;
+  border: 1px solid #E4E4E4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+body #mc_embed_signup .button {
+  background-color: #3499E0;
+  color: #fff;
+  font-size: 17px;
+  height: 38px;
+  line-height: 38px;
+  margin: 0 5px 10px 0;
+  padding: 0px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #0E89E0 !important;
+}
+
+textarea:focus, input:focus{
+  outline: 0;
+}
+
+#mc_embed_signup input.button {
+  margin: 0px auto !important;
+}
+
+#thankyou {
+  display: none;
+  color: #424242;
+  font-size: 28px;
+}
+
+.twitterBtn {
+  float: right;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 35px;
+  color: #55acee;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.twitterBtn:hover {
+  color: #56BBEE;
+}
+
+.postContainer {
+  width: 70%;
+  margin: 30px auto;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 30px;
+}
+
+.postTitle {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.postBody {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.authorInfo {
+
+}
+
+.authorName {
+  font-size: 20px;
+  text-align: center;
+}
+
+.divider {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.authorHandle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.newsletterContainer {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.number {
+  font-size: 34px;
+  text-align: left;
+}
+
+.date {
+  font-size: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+  .title-container {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .main-container {
+    width: 80%;
+  }
+  .post-container {
+    width: 100%;
+  }
+  .newsletterContainer {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+  .postContainer {
+    padding: 10;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
